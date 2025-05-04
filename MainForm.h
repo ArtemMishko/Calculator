@@ -85,7 +85,7 @@ namespace CalculatorApp {
             this->displayTextBox->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
                 static_cast<System::Byte>(0)));
             this->displayTextBox->Location = System::Drawing::Point(9, 10);
-            this->displayTextBox->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->displayTextBox->Margin = System::Windows::Forms::Padding(2);
             this->displayTextBox->Name = L"displayTextBox";
             this->displayTextBox->ReadOnly = true;
             this->displayTextBox->Size = System::Drawing::Size(196, 29);
@@ -97,7 +97,7 @@ namespace CalculatorApp {
             // 
             this->button0->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button0->Location = System::Drawing::Point(9, 210);
-            this->button0->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button0->Margin = System::Windows::Forms::Padding(2);
             this->button0->Name = L"button0";
             this->button0->Size = System::Drawing::Size(45, 49);
             this->button0->TabIndex = 13;
@@ -109,7 +109,7 @@ namespace CalculatorApp {
             // 
             this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button1->Location = System::Drawing::Point(9, 156);
-            this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button1->Margin = System::Windows::Forms::Padding(2);
             this->button1->Name = L"button1";
             this->button1->Size = System::Drawing::Size(45, 49);
             this->button1->TabIndex = 9;
@@ -121,7 +121,7 @@ namespace CalculatorApp {
             // 
             this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button2->Location = System::Drawing::Point(58, 156);
-            this->button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button2->Margin = System::Windows::Forms::Padding(2);
             this->button2->Name = L"button2";
             this->button2->Size = System::Drawing::Size(45, 49);
             this->button2->TabIndex = 10;
@@ -133,7 +133,7 @@ namespace CalculatorApp {
             // 
             this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button3->Location = System::Drawing::Point(108, 156);
-            this->button3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button3->Margin = System::Windows::Forms::Padding(2);
             this->button3->Name = L"button3";
             this->button3->Size = System::Drawing::Size(45, 49);
             this->button3->TabIndex = 11;
@@ -145,7 +145,7 @@ namespace CalculatorApp {
             // 
             this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button4->Location = System::Drawing::Point(9, 102);
-            this->button4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button4->Margin = System::Windows::Forms::Padding(2);
             this->button4->Name = L"button4";
             this->button4->Size = System::Drawing::Size(45, 49);
             this->button4->TabIndex = 5;
@@ -157,7 +157,7 @@ namespace CalculatorApp {
             // 
             this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button5->Location = System::Drawing::Point(58, 102);
-            this->button5->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button5->Margin = System::Windows::Forms::Padding(2);
             this->button5->Name = L"button5";
             this->button5->Size = System::Drawing::Size(45, 49);
             this->button5->TabIndex = 6;
@@ -169,7 +169,7 @@ namespace CalculatorApp {
             // 
             this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button6->Location = System::Drawing::Point(108, 102);
-            this->button6->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button6->Margin = System::Windows::Forms::Padding(2);
             this->button6->Name = L"button6";
             this->button6->Size = System::Drawing::Size(45, 49);
             this->button6->TabIndex = 7;
@@ -181,7 +181,7 @@ namespace CalculatorApp {
             // 
             this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button7->Location = System::Drawing::Point(9, 49);
-            this->button7->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button7->Margin = System::Windows::Forms::Padding(2);
             this->button7->Name = L"button7";
             this->button7->Size = System::Drawing::Size(45, 49);
             this->button7->TabIndex = 1;
@@ -193,7 +193,7 @@ namespace CalculatorApp {
             // 
             this->button8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button8->Location = System::Drawing::Point(58, 49);
-            this->button8->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button8->Margin = System::Windows::Forms::Padding(2);
             this->button8->Name = L"button8";
             this->button8->Size = System::Drawing::Size(45, 49);
             this->button8->TabIndex = 2;
@@ -205,7 +205,7 @@ namespace CalculatorApp {
             // 
             this->button9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->button9->Location = System::Drawing::Point(108, 49);
-            this->button9->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->button9->Margin = System::Windows::Forms::Padding(2);
             this->button9->Name = L"button9";
             this->button9->Size = System::Drawing::Size(45, 49);
             this->button9->TabIndex = 3;
@@ -217,7 +217,7 @@ namespace CalculatorApp {
             // 
             this->buttonAdd->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonAdd->Location = System::Drawing::Point(158, 210);
-            this->buttonAdd->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonAdd->Margin = System::Windows::Forms::Padding(2);
             this->buttonAdd->Name = L"buttonAdd";
             this->buttonAdd->Size = System::Drawing::Size(45, 49);
             this->buttonAdd->TabIndex = 16;
@@ -229,7 +229,7 @@ namespace CalculatorApp {
             // 
             this->buttonSubtract->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonSubtract->Location = System::Drawing::Point(158, 156);
-            this->buttonSubtract->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonSubtract->Margin = System::Windows::Forms::Padding(2);
             this->buttonSubtract->Name = L"buttonSubtract";
             this->buttonSubtract->Size = System::Drawing::Size(45, 49);
             this->buttonSubtract->TabIndex = 12;
@@ -241,7 +241,7 @@ namespace CalculatorApp {
             // 
             this->buttonMultiply->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonMultiply->Location = System::Drawing::Point(158, 102);
-            this->buttonMultiply->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonMultiply->Margin = System::Windows::Forms::Padding(2);
             this->buttonMultiply->Name = L"buttonMultiply";
             this->buttonMultiply->Size = System::Drawing::Size(45, 49);
             this->buttonMultiply->TabIndex = 8;
@@ -253,7 +253,7 @@ namespace CalculatorApp {
             // 
             this->buttonDivide->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonDivide->Location = System::Drawing::Point(158, 49);
-            this->buttonDivide->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonDivide->Margin = System::Windows::Forms::Padding(2);
             this->buttonDivide->Name = L"buttonDivide";
             this->buttonDivide->Size = System::Drawing::Size(45, 49);
             this->buttonDivide->TabIndex = 4;
@@ -265,7 +265,7 @@ namespace CalculatorApp {
             // 
             this->buttonEquals->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonEquals->Location = System::Drawing::Point(108, 210);
-            this->buttonEquals->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonEquals->Margin = System::Windows::Forms::Padding(2);
             this->buttonEquals->Name = L"buttonEquals";
             this->buttonEquals->Size = System::Drawing::Size(45, 49);
             this->buttonEquals->TabIndex = 15;
@@ -277,7 +277,7 @@ namespace CalculatorApp {
             // 
             this->buttonClear->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonClear->Location = System::Drawing::Point(9, 263);
-            this->buttonClear->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonClear->Margin = System::Windows::Forms::Padding(2);
             this->buttonClear->Name = L"buttonClear";
             this->buttonClear->Size = System::Drawing::Size(194, 32);
             this->buttonClear->TabIndex = 17;
@@ -289,7 +289,7 @@ namespace CalculatorApp {
             // 
             this->buttonDecimal->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12));
             this->buttonDecimal->Location = System::Drawing::Point(58, 210);
-            this->buttonDecimal->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->buttonDecimal->Margin = System::Windows::Forms::Padding(2);
             this->buttonDecimal->Name = L"buttonDecimal";
             this->buttonDecimal->Size = System::Drawing::Size(45, 49);
             this->buttonDecimal->TabIndex = 14;
@@ -301,7 +301,7 @@ namespace CalculatorApp {
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-            this->ClientSize = System::Drawing::Size(321, 514);
+            this->ClientSize = System::Drawing::Size(212, 302);
             this->Controls->Add(this->buttonClear);
             this->Controls->Add(this->buttonAdd);
             this->Controls->Add(this->buttonEquals);
@@ -321,7 +321,7 @@ namespace CalculatorApp {
             this->Controls->Add(this->button7);
             this->Controls->Add(this->displayTextBox);
             this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedDialog;
-            this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+            this->Margin = System::Windows::Forms::Padding(2);
             this->MaximizeBox = false;
             this->Name = L"MainForm";
             this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
